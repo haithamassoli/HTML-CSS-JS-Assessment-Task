@@ -13,3 +13,7 @@ span.welcome {
 .green {
   background-color: palegreen;
 }
+
+.error {
+  color: red;
+}
