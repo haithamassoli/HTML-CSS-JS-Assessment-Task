@@ -35,7 +35,7 @@ form[0].addEventListener("blur", (e) => {
   localStorage.setItem("username", e.target.value);
 });
 
-fetch("../cup cakes.json")
+fetch("https://raw.githubusercontent.com/haithamassoli/HTML-CSS-JS-Assessment-Task/main/cup%20cakes.json")
   .then((response) => response.json())
   .then((data) => {
     for (i = 0; i < data.length; i++) {
